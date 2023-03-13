@@ -1,0 +1,10 @@
+m = int(input(""))
+n = int(input(""))
+i = 1
+while(i <= m):
+    j = 1
+    while(j <= n):      
+        j = j + 1
+        print('*', end = '  ')
+    i = i + 1
+    print('')
